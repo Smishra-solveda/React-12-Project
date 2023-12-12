@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   let myObj = {
-    name: 'Hitesh',
+    name: 'Shashwat',
     age: 25,
     address: {
       city: 'Jaipur',
@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <h1 className='text-3xl bg-green-500 p-3 rounded-md' >Vite with Tailwind</h1>
-      <Card username="hitesh" myArr={newArr} />
+      <Card username="Shashwat Mishra" myArr={newArr} />
       <Card username='Json' post='Staff Engg.' />
       <Card />
     </>
